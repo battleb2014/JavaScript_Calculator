@@ -11,7 +11,7 @@ header {
 }
 
 header h1 {
-  padding: .5em;
+  padding-top: .5em;
 }
 
 body {
@@ -42,4 +42,8 @@ button {
 
 #calc {
   margin-bottom: 2em;
+}
+
+media (max-width: 769px){
+  
 }
