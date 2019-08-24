@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel='stylesheet' type='text/css' href='css/style.css'>
+  <script src='js/script.js'></script>
+  <title>JS Calculator</title>
+</head>
+<div id='form'>
+
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Calculator</h1>
+    </header>
+    <form>
+      value 1: <input type='text' id='val1'>
+      value 2: <input type='text' id='val2'>
+      <div id='calc'> calculation: </div>
+      <div class='op'>
+        operator:
+        <select id='operator'>
+          <option value='add'>Add</option>
+          <option value='min'>Subtract</option>
+          <option value='div'>Divide</option>
+          <option value='mul'>Multiply</option>
+        </select>
+      </div>
+      <button type='button' onclick='calc()' id='equals'>Calculate</button>
+      <button type='button' onclick='reset()'>Reset</button>
+    </form>
+  </body>
+</div>
+
+</html>

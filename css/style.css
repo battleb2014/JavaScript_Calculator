@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f25a5a;
+  text-align: center;
+  height: 5em;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  padding: .5em;
+}
+
+body {
+  background-color: #ffd4d4;
+}
+
+form {
+  display: inline-block;
+  margin-left: 45%;
+  margin-right: 55%;
+}
+
+button {
+  padding: .5em;
+}
+
+.op {
+  margin-bottom: 2em;
+}
+
+#val1 {
+  margin-bottom: 2em;
+}
+
+#val2 {
+  margin-bottom: 2em;
+}
+
+#calc {
+  margin-bottom: 2em;
+}
